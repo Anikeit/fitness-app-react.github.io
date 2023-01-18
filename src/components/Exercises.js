@@ -8,7 +8,7 @@ import Loader from './Loader';
 
 const Exercises = ({ exercises, setExercises, bodyPart }) => {
   const [currentPage, setCurrentPage] = useState(1);
-  const [exercisesPerPage, setExercisesPerPage] = useState(6);
+  const exercisesPerPage = 6;
 
   useEffect(() => {
     const fetchExercisesData = async () => {
@@ -34,10 +34,10 @@ const Exercises = ({ exercises, setExercises, bodyPart }) => {
   const paginate = (event, value) => {
     setCurrentPage(value);
 
-    if(window.innerWidth > 480){
+    if (window.innerWidth > 480) {
       window.scrollTo({ top: 1800, left: 100, behavior: 'smooth' });
     }
-    else{
+    else {
       window.scrollTo({ top: 1000, left: 100, behavior: 'smooth' });
     }
   };
