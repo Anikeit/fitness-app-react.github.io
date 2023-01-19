@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/fitness-app-react.github.io/static/css/main.a5773fc3.css",
-    "main.js": "/fitness-app-react.github.io/static/js/main.d74c398b.js",
+    "main.js": "/fitness-app-react.github.io/static/js/main.b3bd1294.js",
     "static/media/banner.jpg": "/fitness-app-react.github.io/static/media/banner.481288ce67dd74107e06.jpg",
     "static/media/gym.png": "/fitness-app-react.github.io/static/media/gym.6e701417c428e2fbc267.png",
     "index.html": "/fitness-app-react.github.io/index.html",
     "main.a5773fc3.css.map": "/fitness-app-react.github.io/static/css/main.a5773fc3.css.map",
-    "main.d74c398b.js.map": "/fitness-app-react.github.io/static/js/main.d74c398b.js.map"
+    "main.b3bd1294.js.map": "/fitness-app-react.github.io/static/js/main.b3bd1294.js.map"
   },
   "entrypoints": [
     "static/css/main.a5773fc3.css",
-    "static/js/main.d74c398b.js"
+    "static/js/main.b3bd1294.js"
   ]
 }
